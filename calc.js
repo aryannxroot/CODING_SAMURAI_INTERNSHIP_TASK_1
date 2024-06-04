@@ -11,7 +11,7 @@ buttons.forEach((button) => {
             if(checkifdivzero(input.value)){
                 input.value = 'Error!!!';
             }
-            else{  
+            else{
                 input.value = eval(input.value);
             }
         }else{
