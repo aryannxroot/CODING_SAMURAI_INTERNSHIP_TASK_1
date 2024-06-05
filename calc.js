@@ -1,3 +1,13 @@
+function checkifdivzero(pmtr){
+    for(let i = 0; i < pmtr.length; i++){
+        if(((pmtr[i]==='%' || pmtr[i]==='/') && (i!== pmtr.length-1) ) && pmtr[i+1]==='0'){
+            return true;
+        }
+    }
+    return false;
+}
+
+
 const input = document.querySelector('.input-field')
 const buttons = document.querySelectorAll('button');
 
@@ -20,12 +30,18 @@ buttons.forEach((button) => {
     })
 })
 
+const togglebtn = document.querySelector('.js-toggler-btn');
+const calculator = document.querySelector('.calculator');
+const inputFieldContainer = document.querySelector('.input-container');
+const calculatorBtns = document.querySelector('.calculator-buttons');
 
-function checkifdivzero(pmtr){
-    for(let i = 0; i < pmtr.length; i++){
-        if(((pmtr[i]==='%' || pmtr[i]==='/') && (i!== pmtr.length-1) ) && pmtr[i+1]==='0'){
-            return true;
-        }
-    }
-    return false;
-}
+console.log(togglebtn);
+console.log(calculator);
+console.log(inputFieldContainer);
+console.log(calculatorBtns);
+
+togglebtn.addEventListener('click', () => {
+    calculator.classList.toggle('js-dark-calculator');
+    inputFieldContainer.classList.toggle('js-dark-input-field');
+    calculatorBtns.classList.toggle('js-dark-calculator-buttons');
+})
