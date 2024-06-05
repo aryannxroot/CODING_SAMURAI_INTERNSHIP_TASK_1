@@ -35,11 +35,6 @@ const calculator = document.querySelector('.calculator');
 const inputFieldContainer = document.querySelector('.input-container');
 const calculatorBtns = document.querySelector('.calculator-buttons');
 
-console.log(togglebtn);
-console.log(calculator);
-console.log(inputFieldContainer);
-console.log(calculatorBtns);
-
 togglebtn.addEventListener('click', () => {
     calculator.classList.toggle('js-dark-calculator');
     inputFieldContainer.classList.toggle('js-dark-input-field');
