@@ -34,7 +34,7 @@ This project is a simple yet functional web-based calculator that allows users t
 - JavaScript
 
 ## Author
-[Your Name]
+Aryan (@aryannxroot)
 
 ## License
 This project is licensed under the MIT License.
