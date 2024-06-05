@@ -40,7 +40,7 @@ Aryan (@aryannxroot)
 This project is licensed under the MIT License.
 
 ## Working 
-(images/p1.png)
-(images/p2.png)
-(images/p3.png)
-(images/p4.png)
+![Adding 2 numbers](images/p1.png)
+![Resukt](images/p2.png)
+![Divide by zero](images/p3.png)
+![Error](images/p4.png)
