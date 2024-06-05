@@ -40,7 +40,10 @@ Aryan (@aryannxroot)
 This project is licensed under the MIT License.
 
 ## Working 
+### Addition operation and result
 ![Adding 2 numbers](images/p1.png)
 ![Resukt](images/p2.png)
+
+### Divide by zero error
 ![Divide by zero](images/p3.png)
 ![Error](images/p4.png)
