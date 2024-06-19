@@ -1,6 +1,6 @@
 # Web-based Calculator
 
-## Web Development Intership Task #2
+## Web Development Intership Task #1
 
 ## Project Description
 This project is a simple yet functional web-based calculator that allows users to perform basic arithmetic operations. It is designed to be user-friendly and responsive, making it accessible on various devices including desktops, tablets, and smartphones.
